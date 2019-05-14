@@ -48,6 +48,7 @@
 			// 属性1 是 path ,表示监听,哪个路由地址;
 			// 属性2 是component ,表示,如果路由是前面匹配到的path ,则展示component属性对应的那个组件
 			// component的属性值,必须是一个组件的模板对象,不能是组件的引用名称,  
+			{path:'/',redirect:'/login'},		//路由的重定向使用
 			{path:'/login',component:login},
 			{path:'/register',component:register},
 			
